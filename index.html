@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>slider</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+  <div class="container">
+    <p class="warning">
+      при проверке адаптива обновляйте страницу
+    </p>
+    <div class="slider" data-slider>
+      <div class="slider-container" data-slider-container>
+        <div class="slider-slide" data-slide="1">
+          <div class="slider__item">
+            <div class="slider__item-image">
+              <img src="images/slide-1.png" alt="">
+            </div>
+            <div class="slider__item-box">
+              <div class="slider__item-index">
+                1
+              </div>
+              <h6 class="slider__item-title">
+                У нас работают только профессионалы
+              </h6>
+              <ul class="slider__item-list">
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> В компании работают только квалифицированные работники
+                </li>
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Все работники имеют высшее образование
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="slider-slide" data-slide="2">
+          <div class="slider__item">
+            <div class="slider__item-image">
+              <img src="images/slide-2.png" alt="">
+            </div>
+            <div class="slider__item-box">
+              <div class="slider__item-index">
+                2
+              </div>
+              <h6 class="slider__item-title">
+                Легкая закупка в интернет магазине
+              </h6>
+              <ul class="slider__item-list">
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Простой поиск товаров
+                </li>
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Моментальная оплата покупки
+                </li>
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Надежная доставка
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="slider-slide" data-slide="3">
+          <div class="slider__item">
+            <div class="slider__item-image">
+              <img src="images/slide-3.png" alt="">
+            </div>
+            <div class="slider__item-box">
+              <div class="slider__item-index">
+                3
+              </div>
+              <h6 class="slider__item-title">
+                Экономим ваши деньги и время
+              </h6>
+              <ul class="slider__item-list">
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Организуем бесплатную доставку в Пермь
+                </li>
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Сразу выставляем конкурентные цены
+                </li>
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Просчитываем несколько вариантов под бюджет
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="slider-slide" data-slide="4">
+          <div class="slider__item">
+            <div class="slider__item-image">
+              <img src="images/slide-4.png" alt="">
+            </div>
+            <div class="slider__item-box">
+              <div class="slider__item-index">
+                4
+              </div>
+              <h6 class="slider__item-title">
+                Надежная поставка
+              </h6>
+              <ul class="slider__item-list">
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Работаем с проверенными логистическими компаниями
+                </li>
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Поставляем товар в надежных боксах
+                </li>
+                <li class="slider__item-text">
+                  <img src="images/checked-icon.svg" alt=""> Мы гарантируем, что товар будет доставлен вовремя
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="slider-dots" data-dots>
+        <button class="slider-dot" data-dot="1">профессионализм</button>
+        <button class="slider-dot" data-dot="2">легкая закупка</button>
+        <button class="slider-dot" data-dot="3">Выгодное сотрудничество</button>
+        <button class="slider-dot" data-dot="4">Надежная поставка</button>
+      </div>
+      <button class="slider-button" data-button data-button-prev="true">
+        <img src="images/arrow-prev.svg" alt="">
+      </button>
+      <button class="slider-button" data-button data-button-next="true">
+        <img src="images/arrow-next.svg" alt="">
+      </button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
